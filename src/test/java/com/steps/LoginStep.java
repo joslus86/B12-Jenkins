@@ -25,13 +25,13 @@ public class LoginStep {
 //		driver = new SafariDriver();
 //		
 		
-		//Firfox Window User
+		//Firefox Window User
 	//	WebDriverManager.firefoxdriver().setup();
 		//driver = new FirefoxDriver();
 		
 		//Edge-WIndows User
-//		WebDriverManager.edgedriver().setup();
-//		driver = new EdgeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 		
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
